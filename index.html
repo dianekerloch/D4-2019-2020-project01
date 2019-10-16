@@ -10,6 +10,15 @@
 
 
       <header>
+        <nav>
+          <ul>
+            <li><a href="#section01">Les étapes de la pollinisation</a></li>
+            <!-- Remarquer ici le # dans le lien pointe vers un identifiant unique dans la page -->
+            <li><a href="#section02">Schéma de la pollinisation</a></li>
+            <li><a href="#section03">Vidéo</a></li>
+          </ul>
+        </nav>
+
         <img class="content"src="images/logo.svg" alt="Abeille">
         <h1>Le processus de la pollinisation</h1>
       </header>
@@ -20,7 +29,7 @@
 
 
 
-<section class="step step01">
+<section id="section01" class="step step01">
 
   <h1>1</h1>
   <div class="step-content">
@@ -62,19 +71,19 @@
       src="images/tirets.svg" />
 </div>
 
-<section class="step step04">
+<section "section02" class="step step04">
 <h2>Schéma de la pollinisation</h2>
 <div id=fond02>
   <img class="displayed03"
       src="images/schema.svg" />
 </div>
 
-</section step step05>
+</section "section03" class="step step05">
 <h4>Video time!</h4>
 <video controls width="250">
 
-      <source src="medias/lerole.mov"
-              type="video/mov">
+      <source src="medias/le_role.mp4"
+              type="video/mp4">
 
 
         <source src="medias/flower.mp4"
