@@ -66,9 +66,26 @@ background-image:url(images/tirets.svg);
 margin:0;
 }
 
+.step01{
+  z-index: 30;
+}
+
+.step02{
+  border-top : 2px
+  position: absolute;
+  top:10%;
+  z-index: 50;
+  bottom: 50%;
+}
+
+.step03{
+  position: relative;
+  top:50%;
+  z-index: 40;
+}
 
 .step {
-  border-top : 2px solid #000;
+  border-top : 2px
   background: #fff;
   min-height: 100vh;
   position: relative;
