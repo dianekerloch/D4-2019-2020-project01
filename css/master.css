@@ -29,19 +29,19 @@ footer a {
 
 header li {
   display: flex;
-  left:25%;
+  left:10%;
 }
 
 header a {
   text-decoration: none;
-  padding: 12px;
+  padding: 6px;
   display: block;
 }
 
 .content {
-  width: 500px;
+  width: 100px;
   align-items: center;
-
+  padding: 20px;
 }
 
 
