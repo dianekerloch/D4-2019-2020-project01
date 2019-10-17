@@ -7,6 +7,17 @@ font-size: 4em;
 color: white;
 }
 
+li{
+font-family: 'Kadwa';
+color: white;
+font-size: 20px;
+}
+
+footer li{
+  font-family: 'Kadwa';
+  color: white;
+  font-size: 20px;
+}
 
 h1 {
   font-family: 'Kadwa';
@@ -17,6 +28,7 @@ font-weight: bold;
 h2 {
   font-family: 'Pacifico';
   font-size: 2em;
+  color: white;
 }
 
 h4 {
